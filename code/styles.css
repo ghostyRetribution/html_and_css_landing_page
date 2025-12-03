@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 26px;
+}
+
+.firstBox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.firstBox-firstbox {
+    width: 350px;
+    color: white;
+}
+
+.firstBox-firstbox p {
+    font-size: 14px;
+    color: rgb(199, 197, 197);
+}
+
+.firstSignUp {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 22px;
+}
+
+.firstBox .imagePlaceHolder {
+   background-color: gray;
+   color: white;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 400px;
+}
+
+.secondBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    height: 140px;
+    width: 140px;
+    border-radius: 12px;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 140px;
+}
+
+.blueBoxes {
+    display: flex;
+    gap: 40px;
+}
+
+.boxParagraph {
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.thirdBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px;
+    align-items: center;
+}
+
+.thirdBoxContent {
+    text-align: start;
+    width: 390px;
+    height: auto;
+}
+
+.quote {
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+}
+
+.quoteAuthor {
+    font-weight: 700;
+    margin-left: 180px;
+}
+
+.fourthBox {
+    padding: 60px;
+}
+
+.fourthBox div {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: white;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.firstText {
+    font-size: 24px;
+}
+
+.secondText {
+    margin-top: -32px;
+    font-size: 14px;
+}
+
+.secondButton {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 12px;
+    align-items: center;
+    padding: 12px;
+}
